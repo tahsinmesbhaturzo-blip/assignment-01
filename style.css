@@ -37,3 +37,33 @@
     font-family: "Open Sans", sans-serif;
     color: #575757;
 }
+
+/* hero section  */
+.hero-section{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 786px;
+    width: auto;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-section h2{
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+.hero-section p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.hero-section button{
+    margin-top: 300px;
+}
