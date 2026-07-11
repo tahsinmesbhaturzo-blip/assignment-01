@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* common part */
+.common-btn{
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 30px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+/* nav part */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 20px 0px;
+    margin: auto;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #575757;
+}
