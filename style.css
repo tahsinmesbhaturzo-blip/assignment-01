@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 /* common part */
 .common-btn{
     background-color: #1d4ed8;
@@ -14,6 +15,7 @@
     cursor: pointer;
 
 }
+
 /* nav part */
 .nav-container{
     display: flex;
