@@ -1,69 +1,129 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 /* common part */
-.common-btn{
-    background-color: #1d4ed8;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 12px 30px;
-    font-weight: bold;
-    font-size: 15px;
-    cursor: pointer;
 
+.common-btn {
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 30px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 /* nav part */
-.nav-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    padding: 20px 0px;
-    margin: auto;
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  padding: 20px 0px;
+  margin: auto;
 }
-.menu{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    list-style: none;
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
 }
-.menu a{
-    text-decoration: none;
-    font-size: 15px;
-    font-family: "Open Sans", sans-serif;
-    color: #575757;
+
+.menu a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Arimo", sans-serif;
+  color: #575757;
 }
 
 /* hero section  */
-.hero-section{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./images/banner.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 786px;
-    width: auto;
-    color: white;
-    font-family: "Open Sans", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+
+.hero-section {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 786px;
+  width: auto;
+  color: white;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.hero-section h2{
-    font-size: 80px;
-    font-weight: 800;
-    margin-top: 100px;
+
+.hero-section h2 {
+  font-size: 80px;
+  font-weight: 800;
+  margin-top: 100px;
 }
-.hero-section p{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 30px;
+
+.hero-section p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
 }
-.hero-section button{
-    margin-top: 300px;
+
+.hero-section button {
+  margin-top: 300px;
+}
+
+/* speaker section */
+
+.titel {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0px;
+  font-size: 50px;
+}
+
+.speaker a {
+  text-decoration: none;
+  color: #2563eb;
+}
+.speaker {
+  font-family: "Inter", sans-serif;
+}
+
+.card-titel {
+  padding: 13px 0px;
+  font-weight: bold;
+}
+
+.card-info {
+  color: #575757;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
+
+.speaker-pic {
+  width: 100%;
+  display: block;
+}
+.speaker-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+.text-box {
+  padding: 15px;
 }
