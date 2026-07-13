@@ -82,7 +82,7 @@
   font-weight: bold;
   text-align: center;
   margin: 0px 0px 40px 0px;
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 150px;
 }
 
@@ -238,7 +238,6 @@ ul {
 
 /* why join devconf 2026 */
 
-/* Why Join Section Styles */
 .why-join-section {
   padding: 80px 20px;
   background-color: #ffffff;
@@ -246,7 +245,7 @@ ul {
 }
 
 .why-join-container {
-  max-width: 1200px; /* Aligns with the width of the website layout */
+  max-width: 1200px; 
   margin: 0 auto;
 }
 
@@ -254,20 +253,20 @@ ul {
   font-size: 2.5rem;
   font-weight: 700;
   text-align: center;
-  color: #0f172a; /* Slate black color matching 'Meet the Speakers' */
+  color: #0f172a; 
   margin-bottom: 48px;
 }
 
 .features-grid {
   display: flex;
-  gap: 24px; /* Space between the cards */
+  gap: 24px;
   justify-content: space-between;
 }
 
 .feature-card {
-  flex: 1; /* Makes all three cards equal in width */
-  background-color: #f8fafc; /* Very soft light-gray background */
-  border: 1px solid #e2e8f0; /* Soft border color */
+  flex: 1; 
+  background-color: #f8fafc; 
+  border: 1px solid #e2e8f0; 
   border-radius: 12px;
   padding: 32px;
   transition: transform 0.2s ease, border-color 0.2s ease;
@@ -282,7 +281,7 @@ ul {
 .feature-number {
   font-size: 2rem;
   font-weight: 800;
-  color: #2563eb; /* Theme blue color accent */
+  color: #2563eb; 
   margin-bottom: 16px;
 }
 
@@ -299,43 +298,38 @@ ul {
   line-height: 1.6;
 }
 
-/* Responsive adjustment for small screens/mobiles */
-@media (max-width: 768px) {
-  .features-grid {
-    flex-direction: column; /* Stacks cards vertically on smaller devices */
-  }
-}
+
 /* footer */
 
-footer {
-  background: rgb(17, 21, 48);
-  height: 100px;
+footer{
+    background: #0f172a;
+    height: 100px;
+}
+.footer-image{
+    display: flex;
+    padding: 10px;
 }
 
-.footer-logo {
-  display: flex;
-  justify-content: center;
-  margin-top: 35px;
-  color: white;
-  gap: 10px;
+.footer-image h3{
+    color: white;
+    padding: 5px 0px 0px 5px;
+}
+footer div p{
+    color: #575757;
+    text-align: center;
+    margin-top: 5px;
+}
+span{
+    color: #2563eb;
 }
 
-#flt {
-  margin-top: 39px;
+.footer-container{
+    display: flex;
+    justify-content: space-between;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  color: #575757;
-  margin-top: -25px;
-}
-.footer-text {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-  padding: 0px 15px 0px 0px;
-}
-#footer {
-  margin-left: 15px;
+.icons{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
 }
