@@ -238,37 +238,73 @@ ul {
 
 /* why join devconf 2026 */
 
-.join-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Why Join Section Styles */
+.why-join-section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-.why-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  max-width: 900px;
+.why-join-container {
+  max-width: 1200px; /* Aligns with the width of the website layout */
+  margin: 0 auto;
 }
 
-.why {
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
   text-align: center;
-  border: 1px solid #575757;
-  border-radius: 10px;
-  box-shadow: 0px 10px 20px 0px #575757;
-  padding: 50px;
+  color: #0f172a; /* Slate black color matching 'Meet the Speakers' */
+  margin-bottom: 48px;
 }
 
-.why h2 {
-  margin-bottom: 20px;
+.features-grid {
+  display: flex;
+  gap: 24px; /* Space between the cards */
+  justify-content: space-between;
 }
 
-.why p {
-  margin-top: 20px;
+.feature-card {
+  flex: 1; /* Makes all three cards equal in width */
+  background-color: #f8fafc; /* Very soft light-gray background */
+  border: 1px solid #e2e8f0; /* Soft border color */
+  border-radius: 12px;
+  padding: 32px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
+/* Subtle hover effect to make it feel premium */
+.feature-card:hover {
+  border-color: #2563eb; /* Theme blue color from registration buttons */
+  transform: translateY(-4px); /* Gently lifts the card up */
+}
+
+.feature-number {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #2563eb; /* Theme blue color accent */
+  margin-bottom: 16px;
+}
+
+.feature-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.feature-text {
+  font-size: 0.95rem;
+  color: #475569; /* Muted slate gray for clean readability */
+  line-height: 1.6;
+}
+
+/* Responsive adjustment for small screens/mobiles */
+@media (max-width: 768px) {
+  .features-grid {
+    flex-direction: column; /* Stacks cards vertically on smaller devices */
+  }
+}
 /* footer */
 
 footer {
