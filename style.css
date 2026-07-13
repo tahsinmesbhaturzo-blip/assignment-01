@@ -78,11 +78,12 @@
 
 /* speaker section */
 
-.titel {
+.title {
   font-weight: bold;
   text-align: center;
-  margin: 40px 0px;
+  margin: 0px 0px 40px 0px;
   font-size: 50px;
+  margin-top: 150px;
 }
 
 .speaker a {
@@ -90,7 +91,7 @@
   color: #2563eb;
 }
 
-.card-titel {
+.card-title {
   padding: 13px 0px;
   font-weight: bold;
 }
@@ -126,24 +127,24 @@
 
 /* secure your spot section  */
 
-.spot-titel p {
+.spot-title p {
   color: #575757;
   text-align: center;
 }
 
-.spot-titel {
-  margin-top: 200px;
+.spot-title {
+  margin-top: 50px;
 }
 
 h4 {
   color: #575757;
 }
 
-.spot{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.spot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .price-flex {
@@ -226,13 +227,46 @@ ul {
 .btn-standard {
   margin-top: 40px;
   background-color: #ffffff;
-  color:#2563eb;
+  color: #2563eb;
   border: 1px solid #2563eb;
   border-radius: 10px;
   padding: 15px 120px;
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
+}
+
+/* why join devconf 2026 */
+
+.join-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 900px;
+}
+
+.why {
+  text-align: center;
+  border: 1px solid #575757;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 0px #575757;
+  padding: 50px;
+}
+
+.why h2 {
+  margin-bottom: 20px;
+}
+
+.why p {
+  margin-top: 20px;
 }
 
 /* footer */
